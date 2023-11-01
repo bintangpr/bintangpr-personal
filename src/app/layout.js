@@ -11,7 +11,18 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div className='hidden md:block'>
+          {children}
+        </div>
+        <div className="md:hidden w-full h-screen bg-dark flex justify-center items-center">
+          <div className='flex flex-col gap-y-4 text-center'>
+            <h1 className='text-3xl font-bold text-white'>Coming Soon for Mobile</h1>
+            <h2 className='text-xl font-medium text-white'>Please access it from PC/Laptop</h2>
+          </div>
+        </div>
+      </body>
+      
     </html>
   )
 }
