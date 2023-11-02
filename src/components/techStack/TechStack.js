@@ -91,7 +91,7 @@ function TechStack() {
                         return(
                             <SwiperSlide key={index} className="w-[96px] h-[102px]">
                                 <Image
-                                    src ={`/assets/techstack/${data.img}`}
+                                    src ={`/assets/techStack/${data.img}`}
                                     alt={data.name}
                                     width={96}
                                     height={96}
