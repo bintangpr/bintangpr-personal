@@ -13,9 +13,9 @@ function HeroSection() {
         <div className="container mx-auto flex ">
             <div className="h-screen w-3/5  flex flex-col justify-center gap-y-16">
                 <div className="flex flex-col gap-y-6">
-                    <h1 className="text-white font-bold text-5xl leading-[52px]">Bridging <span className="text-secondary">Dreams</span> & <span className="text-secondary">Reality</span>:<br/> I'm <span className="text-primary">Bintang Prabowo</span>,<br/> Your Software Developer</h1>
+                    <h1 className="text-white font-bold text-5xl leading-[52px]">Bridging <span className="text-secondary">Dreams</span> & <span className="text-secondary">Reality</span>:<br/>{" I'm "}<span className="text-primary">Bintang Prabowo</span>,<br/> Your Software Developer</h1>
                     <p className="text-gray-300 font-medium text-2xl">
-                    As a software developer, I'm deeply passionate about code. I specialize in crafting exceptional web and Android experiences. Every project I undertake is a blend of dedication and love
+                    {"As a software developer, I'm deeply passionate about code. I specialize in crafting exceptional web and Android experiences. Every project I undertake is a blend of dedication and love"}
                     </p>
                 </div>
                 <div className="flex flex-col gap-y-6">
