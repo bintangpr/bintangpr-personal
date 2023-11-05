@@ -5,12 +5,15 @@ import Link from "next/link";
 function HeroSection() {
   return (
     <div className={"bg-dark w-full h-screen relative"}>
+        <div class='stars'></div>
+        <div class='twinkling'></div>
+        <div class='clouds'></div>
         {/* <div className="w-2/5 h-full absolute right-0">
             <div className="relative h-screen w-full">
                 <img src="/assets/profile.jpg" className="absolute w-full h-full inset-0 object-cover mix-blend-luminosity"/>
             </div>
         </div> */}
-        <div className="container mx-auto flex ">
+        <div className="container mx-auto flex relative z-10">
             <div className="h-screen w-3/5  flex flex-col justify-center gap-y-16">
                 <div className="flex flex-col gap-y-6">
                     <h1 className="text-white font-bold text-5xl leading-[52px]">Bridging <span className="text-secondary">Dreams</span> & <span className="text-secondary">Reality</span>:<br/>{" I'm "}<span className="text-primary">Bintang Prabowo</span>,<br/> Your Software Developer</h1>
@@ -21,14 +24,19 @@ function HeroSection() {
                 <div className="flex flex-col gap-y-6">
                     <span className="text-gray-300 font-medium text-2xl">Find Me</span>
                     <div className="flex gap-x-4">
-                        <div className="group w-16 h-16 bg-[#202328] flex justify-center items-center">
-                            <EnvelopeIcon className={"w-12 h-12 text-gray-300 group-hover:text-secondary"}/>
+                        <div className="group w-16 h-16 bg-[#202328] flex justify-center items-center hover:cursor-pointer">
+                             <div className="absolute w-14 h-14 bg-gray-300 rounded-full group-hover:bg-secondary ">
+                            </div>
+                            <img
+                            src="/assets/github-mark.svg"
+                            alt="linkedin Logo"
+                            className="w-12 h-12 absolute z-10 bg-transparant rounded-full" />
                         </div>
                         <Link
                         href="https://www.linkedin.com/in/bintangpr/" 
                         target="_blank"
                         className="group w-16 h-16 bg-[#202328] flex justify-center items-center relative">
-                            <div className="absolute w-12 h-12 bg-gray-300 rounded-xl group-hover:bg-secondary">
+                            <div className="absolute w-11 h-11 bg-gray-300 rounded-xl group-hover:bg-secondary">
                             </div>
                             <img
                             src="/assets/linkedin.svg"
