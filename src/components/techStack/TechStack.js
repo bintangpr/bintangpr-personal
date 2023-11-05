@@ -70,7 +70,7 @@ function TechStack() {
     ]
     
     return(
-        <div className="bg-dark w-full py-8 relative flex justify-center items-center">
+        <div className=" w-full py-8 relative flex justify-center items-center">
             <div className="container bg-white w-full pt-8 px-8 rounded-2xl flex flex-col items-center">
                 <h2 className="font-bold text-white text-4xl text-center uppercase py-2 px-4 w-fit bg-secondary rounded-xl -mt-16">Technology Stack</h2>
                 {/* Running */}

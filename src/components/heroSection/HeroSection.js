@@ -5,9 +5,12 @@ import Link from "next/link";
 function HeroSection() {
   return (
     <div className={"bg-dark w-full h-screen relative"}>
-        <div class='stars'></div>
-        <div class='twinkling'></div>
-        <div class='clouds'></div>
+        <div className="w-screen h-screen fixed">
+            <div class='stars'></div>
+            <div class='twinkling'></div>
+            <div class='clouds'></div>
+        </div>
+        
         {/* <div className="w-2/5 h-full absolute right-0">
             <div className="relative h-screen w-full">
                 <img src="/assets/profile.jpg" className="absolute w-full h-full inset-0 object-cover mix-blend-luminosity"/>
