@@ -27,14 +27,14 @@ function HeroSection() {
                 <div className="flex flex-col gap-y-6">
                     <span className="text-gray-300 font-medium text-2xl">Find Me</span>
                     <div className="flex gap-x-4">
-                        <div className="group w-16 h-16 bg-[#202328] flex justify-center items-center hover:cursor-pointer">
+                        <Link href={"https://github.com/bintangpr"} target="_blank" className="group w-16 h-16 bg-[#202328] flex justify-center items-center hover:cursor-pointer">
                              <div className="absolute w-14 h-14 bg-gray-300 rounded-full group-hover:bg-secondary ">
                             </div>
                             <img
                             src="/assets/github-mark.svg"
                             alt="linkedin Logo"
                             className="w-12 h-12 absolute z-10 bg-transparant rounded-full" />
-                        </div>
+                        </Link>
                         <Link
                         href="https://www.linkedin.com/in/bintangpr/" 
                         target="_blank"
@@ -45,6 +45,17 @@ function HeroSection() {
                             src="/assets/linkedin.svg"
                             alt="linkedin Logo"
                             className="w-12 h-12 absolute z-10" />
+                        </Link>
+                        <Link
+                        href="https://www.instagram.com/bintangpr17" 
+                        target="_blank"
+                        className="group w-16 h-16 bg-[#202328] flex justify-center items-center relative">
+                            <div className="absolute w-14 h-14 bg-gray-300 rounded-xl group-hover:bg-secondary">
+                            </div>
+                            <img
+                            src="/assets/instagram.svg"
+                            alt="Instagram Logo"
+                            className="w-12 h-12 absolute z-10 text-gray-300 overflow-hidden " />
                         </Link>
                     </div>
                 </div>
