@@ -27,8 +27,8 @@ function HeroSection() {
                 <div className="flex flex-col gap-y-6">
                     <span className="text-gray-300 font-medium text-2xl">Find Me</span>
                     <div className="flex gap-x-4">
-                        <Link href={"https://github.com/bintangpr"} target="_blank" className="group w-16 h-16 bg-[#202328] flex justify-center items-center hover:cursor-pointer">
-                             <div className="absolute w-14 h-14 bg-gray-300 rounded-full group-hover:bg-secondary ">
+                        <Link href={"https://github.com/bintangpr"} target="_blank" className="group w-16 h-16  flex justify-center items-center hover:cursor-pointer">
+                             <div className="absolute w-11 h-11 bg-gray-300 rounded-full group-hover:bg-secondary ">
                             </div>
                             <img
                             src="/assets/github-mark.svg"
@@ -38,7 +38,7 @@ function HeroSection() {
                         <Link
                         href="https://www.linkedin.com/in/bintangpr/" 
                         target="_blank"
-                        className="group w-16 h-16 bg-[#202328] flex justify-center items-center relative">
+                        className="group w-16 h-16 flex justify-center items-center relative">
                             <div className="absolute w-11 h-11 bg-gray-300 rounded-xl group-hover:bg-secondary">
                             </div>
                             <img
@@ -49,8 +49,8 @@ function HeroSection() {
                         <Link
                         href="https://www.instagram.com/bintangpr17" 
                         target="_blank"
-                        className="group w-16 h-16 bg-[#202328] flex justify-center items-center relative">
-                            <div className="absolute w-14 h-14 bg-gray-300 rounded-xl group-hover:bg-secondary">
+                        className="group w-16 h-16 flex justify-center items-center relative">
+                            <div className="absolute w-11 h-11 bg-gray-300 rounded-xl group-hover:bg-secondary">
                             </div>
                             <img
                             src="/assets/instagram.svg"
